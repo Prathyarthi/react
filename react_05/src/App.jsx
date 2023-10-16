@@ -59,7 +59,7 @@ function App() {
                 />
               </div>
             </form>
-            <button type='submit' className='w-full bg-blue-600 text-white px-4 py-3 rounded-lg'>
+            <button onClick={(e) => convert()} type='submit' className='w-full bg-blue-600 text-white px-4 py-3 rounded-lg'>
               Convert {from} to {to}
             </button>
           </div>
